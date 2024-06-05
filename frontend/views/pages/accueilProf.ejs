@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+<nav>
+
+	<div class="logo"></div>
+
+	<div class="menu">
+		<a href="">Accueil</a>
+		<a href="">Visualiser Notes</a>
+		<a href="/allMatierePage">Visualiser Matiere</a>
+		<a href="#" onclick="window.location.href='/logout'">Déconnexion</a>
+	</div>
+</nav>
+	
+		<h2>Bienvenue dans Accueil Page des professeurs</h2><br><br>
+
+	<div class="container" style="margin-top: 55px">
+		<fieldset>
+			<legend>Ajout de Matiere</legend>
+			<form action="/ajouterMatier" method="post">
+				<label class="form-control-label" for="nomMatiere">Nom de la matiere</label>
+				<input type="text" name="nomMatiere" id="nomMatiere" placeholder="votre nom de la matiere ici" required />
+				<button type="submit">Ajouter</button>
+			</form>
+		</fieldset>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!-- Description: Page d'inscription d'un utilisateur -->
+<div class="container">
+	<div class="text">Inscription</div>
+	<form action="/inscription" method="post" class="row">
+		<div class="col-md-6 data form-group">
+			<label class="form-control-label" for="prenom">Prénom</label>
+			<input class="form-control" type="text" name="prenom" id="prenom" />
+		</div>
+		
+		<div class="col-md-6 data form-group">
+			<label class="form-control-label" for="nom">Nom</label>
+			<input class="form-control" type="text" name="nom" id="nom" />
+		</div>
+		<div class="col-md-6 data form-group">
+			<label class="form-control-label" for="email">Email</label>
+			<input class="form-control" type="email" name="email" id="email" />
+		</div>
+		<div class="col-md-6 data form-group">
+			<label class="form-control-label" for="mot_de_passe">Mot de passe</label>
+			<input class="form-control" type="password" name="mot_de_passe" id="mot_de_passe" />
+		</div>
+		<div class="col-md-6 data form-group">
+			<label class="form-control-label" for="confirmation_mot_de_passe">Confirmation mot de passe</label>
+			<input class="form-control" type="password" name="confirmation_mot_de_passe" id="confirmation_mot_de_passe" /><br><br>
+		</div>
+		<br>
+		<select name="profil" id="profil">
+			<option value="etudiant">etudiant</option>
+			<option value="admin">admin</option>
+			<option value="professeur">professeur</option>
+		  </select>
+		<div class="btn">
+			<button type="submit">S'inscrire</button>
+		</div>
+
+	</form>
+</div>
