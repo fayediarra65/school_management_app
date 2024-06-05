@@ -12,3 +12,4 @@ module.exports = (sequelize, DataTypes) => {
 
     return Administrateur;
 };
+//un peu de modification
